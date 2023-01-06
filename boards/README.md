@@ -105,7 +105,15 @@ Unable to match requested speed 8000 kHz, using 4000 kHz
 * quit from the `gdb` 
 
 ```
+(gdb) quit
+A debugging session is active.
 
+        Inferior 1 [Remote target] will be detached.
+
+Quit anyway? (y or n) y
+Detaching from program: , Remote target
+Ending remote debugging.
+[Inferior 1 (Remote target) detached]
 ```
 
 * Connect and write .elf executable to the STM32 board:
